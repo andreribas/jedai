@@ -1,33 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>JEDAI</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
-<header>
-    <h1>JEDAI</h1>
-    <nav>
-        <ul>
-            <li><a href="/index.html">Index</a></li>
-            <li><a href="/cadastro-ficha-celular.html">Cadastro</a></li>
-            <li><a href="/detalhes-ficha-celular.html">Detalhes</a></li>
-            <li><a href="/cadastro-ficha-celular.html">Resultado Busca</a></li>
-        </ul>
-    </nav>
-    <form>
-        <label for="busca">Buscar celular: </label>
-        <input type="text" id="busca" name="busca">
-        <input type="button" value="Buscar">
-    </form>
-</header>
-<main>
-    <h2>Resultado da Busca</h2>
+    <header>
+        <h1>HOME</h1>
+        <h1>JEDAI</h1>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Index</a></li>
+                <li><a href="/cadastro-ficha-celular.html">Cadastro</a></li>
+                <li><a href="/detalhes-ficha-celular.html">Detalhes</a></li>                    <!-- Ficara alinhado com CSS - TOPO DA PAGINA -->
+                <li><a href="/cadastro-ficha-celular.html">Resultado Busca</a></li>             
+            </ul>
+        </nav>
+        <form>
+            <label for="busca">Buscar celular: </label>                                         <!-- Ficara alinhado com CSS - TOPO DA PAGINA -->
+            <input type="text" id="busca" name="busca">
+            <input type="button" value="Buscar">
+        </form>
+    </header>
+    <main>
+        <h2>Inicio</h2>
+        <nav>
+            <ul>
+                <li>Novidades</li>                                                              <!-- Ficara no topo da página, perto da Aba de busca -->
+                <li>Celulares Registrados</li>                                                  <!-- Aparecera embaixo do "HOME" principal, mostrando os nossos já cadastrados -->
+                <li>Recenetemente Cadastrados</li>                                              <!-- Ficara logo ao lado do "INICIO", na lateral ESQ ou DIR tanto faz, apresentado os mais recentes cadastrados (LIVE) -->
+                <li>Aparelhos com melhor avaliação</li>                                         <!-- Ficara no topo da página, mas não junto da aba de busca, logo em baixo(estilo a GMS arena) -->
+                <li>Reclamações</li>                                                            <!-- Perto dos recenetementes cadastrados(em baixo dele) -->
+            </ul>
+        </nav>
+    </main>
+    <footer>
 
-</main>
-<footer>
-
-</footer>
+    </footer>
 </body>
+
 </html>
