@@ -1,0 +1,47 @@
+h1 { color: red;}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightgray;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.page-menu, .page-search, .page-title, .page-header{
+    display: inline-block;
+}
+
+.page-title {
+    width: 10%;
+    margin-left: 10px;
+}
+
+.page-menu {
+    width: 60%;
+}
+
+.page-search {
+    width: 20%;
+}
+
+.page-menu  ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: purple;;
+}
+
+a:active {
+    color: maroon;
+}

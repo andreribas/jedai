@@ -6,24 +6,43 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-<header>
-    <h1>JEDAI</h1>
-    <nav>
+<header class="page-header">
+    <h1 class="page-title">JEDAI</h1>
+    <nav class="page-menu">
         <ul>
             <li><a href="/index.html">Index</a></li>
-            <li><a href="/cadastro-ficha-celular.html">Cadastro</a></li>
-            <li><a href="/detalhes-ficha-celular.html">Detalhes</a></li>
-            <li><a href="/cadastro-ficha-celular.html">Resultado Busca</a></li>
+            <li><a href="/detalhes-ficha-celular.html">Detalhes ficha celular</a></li>
+            <li><a href="/cadastro-ficha-celular.html">Cadastro ficha celular</a></li>
+            <li><a href="/resultado-busca.html">Resultado Busca</a></li>
         </ul>
     </nav>
-    <form>
+    <form class="page-search">
         <label for="busca">Buscar celular: </label>
         <input type="text" id="busca" name="busca">
         <input type="button" value="Buscar">
     </form>
 </header>
 <main>
-    <h2>Resultado da Busca</h2>
+    <h2>Cadastro ficha Celular</h2>
+
+    <form>
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="marca">Marca: </label>
+        <input type="text" id="marca" name="marca">
+
+        <label for="processador">Processador: </label>
+        <input type="text" id="processador" name="processador">
+
+        <label for="memoria">Memoria: </label>
+        <input type="text" id="memoria" name="memoria">
+
+        <label for="tela">Tela: </label>
+        <input type="text" id="tela" name="tela">
+
+        <input type="button" value="Cadastrar">
+    </form>
 
 </main>
 <footer>
