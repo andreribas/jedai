@@ -156,8 +156,14 @@ th,td {
     width: 33%;;
 }
 .saiba-mais{
+
+    font-size: 25px;
     width: 30%;
     margin-bottom: 5%;
     margin-left: 35%;
     margin-right: 35%;
+    padding: 10px;
+    border: 5px solid #123456;
+    background-color: #122131;
+    text-decoration: none;
 }
