@@ -49,6 +49,13 @@ a:active {
 
 /* detalhes-ficha-celular.html */
 
+
+.sobre{
+   display: inline-block;
+    text-align: left;
+    padding: 20px;
+  
+}
 /* cadastro-ficha-celular.html */
 
 /* resultado-busca.html */
