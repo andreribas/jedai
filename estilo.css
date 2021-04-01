@@ -11,6 +11,13 @@ header {
     padding: 0;
 }
 
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 .page-menu, .page-search, .page-title, .page-header{
     display: inline-block;
 }
@@ -50,7 +57,19 @@ a:active {
 /* detalhes-ficha-celular.html */
 
 /* cadastro-ficha-celular.html */
-
+.form-cadastro {
+    width: 750px;
+    border: 1px solid black;
+}
+.form-field-group {
+    display: flex;
+}
+.form-field-group label {
+    width: 20%;
+}
+.form-field-group input {
+    width: 80%;
+}
 /* resultado-busca.html */
 .resultado-de-busca-texto{
     font-size: 40px;
