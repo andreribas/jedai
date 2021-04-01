@@ -11,6 +11,13 @@ header {
     padding: 0;
 }
 
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
 .page-menu, .page-search, .page-title, .page-header{
     display: inline-block;
 }
@@ -19,43 +26,138 @@ header {
     width: 10%;
     margin-left: 10px;
     color: #123456;
+    text-decoration: none;
 }
 
 .page-menu {
     width: 60%;
 }
 
+.page-menu ul li {
+    display: inline-block;
+    padding: 5px;
+    color: gray;
+    height: px;
+    border: 5px solid #123456;
+    background-color: #122131;
+}
+
+.page-menu ul li a:link{
+    text-decoration: none;
+}
+
 .page-search {
     width: 20%;
 }
 
-.page-menu  ul li {
-    display: inline-block;
-    padding: 5px;
-}
-
 a {
-    color: green;
+    color: rgb(10, 204, 10);
 }
 
 a:hover {
-    color: purple;;
+    color: rgb(28, 99, 28);
 }
 
 a:active {
-    color: maroon;
+    color: red;
 }
 /* index.html */
 
+.menuInicial {
+    display: inline-block;
+    background-color: #123456;
+    text-align: center;
+}
+
+.menuInicial nav ul li {
+    display: block;
+    flex-grow: 4;
+    padding: 5px;
+
+}
+
+.menuInicial ul li a:link{
+    text-decoration: none;
+}
+
+.flexItem {
+    background: #122131;
+    padding: 5px;
+    height: 100px;
+    margin: 15px;
+    margin-left: -25px;
+
+    line-height: 100px;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+}
+
 /* detalhes-ficha-celular.html */
+table{
+    width: 100%;
+}
 
-
-.sobre{
-   display: inline-block;
+table, th, td{
+    border: 1px solid rgb(148, 146, 146);
+    border-collapse: collapse;
+    text-align: left; 
+    vertical-align: auto;
+}
+th,td {
+    padding: 6px;
+}
+.sobre {
+    display: inline-block;
     text-align: left;
-    padding: 20px;
-  
+    margin-left: 25px;
+    color: rgb(2, 7, 24);
+    font-size: 20px;
+}
+.info{
+    text-align: center;
+    font-size: 16px;
+    color: rgb(90, 92, 100);
+}
+.h2preco {
+    color: rgb(38, 128, 30);
 }
 /* cadastro-ficha-celular.html */
-
+.form-cadastro {
+    width: 750px;
+    border: 1px solid black;
+}
+.form-field-group {
+    display: flex;
+}
+.form-field-group label {
+    width: 20%;
+}
+.form-field-group input {
+    width: 80%;
+}
 /* resultado-busca.html */
+.resultado-de-busca-texto{
+    font-size: 40px;
+    text-align: center;
+}
+.modelo-celular{
+    text-align: center;
+}
+.quer-saber{
+    background-color: lightgray;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.foto-busca{
+    width: 33%;;
+}
+.saiba-mais{
+    width: 30%;
+    margin-bottom: 5%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
