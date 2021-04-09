@@ -13,37 +13,67 @@
         <h1 class="page-title">JEDAI</h1>
         <nav class="page-menu">
             <ul>
-                <li><a href="index.html">Index</a></li>
-                <li><a href="detalhes-ficha-celular.html">Detalhes ficha celular</a></li>
-                <li><a href="cadastro-ficha-celular.html">Cadastro ficha celular</a></li>
-                <li><a href="resultado-busca.html">Resultado Busca</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="detalhes-ficha-celular.html">Noticias</a></li>
+                <li><a href="cadastro-ficha-celular.html">Aparelhos</a></li>
             </ul>
         </nav>
         <form class="page-search">
-            <label for="busca">Buscar celular: </label>
-            <input type="text" id="busca" name="busca">
+            <input type="text" id="busca" name="busca" placeholder="Buscar aparelho">
             <input type="button" value="Buscar">
         </form>
     </div>
 </header>
 <main>
     <div class="container">
-        <h2>Inicio</h2>
-        <div class="menuInicial">
-            <nav>
-                <ul class="modeloQuadrado">
-                    <li class="flexItem"><a href="">Novidades</a></li>                                                              <!-- Ficara no topo da página, perto da Aba de busca -->
-                    <li class="flexItem"><a href="">Celulares Registrados</a></li>                                                  <!-- Aparecera embaixo do "HOME" principal, mostrando os nossos já cadastrados -->
-                    <li class="flexItem"><a href="">Recenetemente Cadastrados</a></li>                                              <!-- Ficara logo ao lado do "INICIO", na lateral ESQ ou DIR tanto faz, apresentado os mais recentes cadastrados (LIVE) -->
-                    <li class="flexItem"><a href="">Aparelhos com melhor avaliação</a></li>                                         <!-- Ficara no topo da página, mas não junto da aba de busca, logo em baixo(estilo a GMS arena) -->
-                    <li class="flexItem"><a href="">Reclamações</a></li>                                                            <!-- Perto dos recenetementes cadastrados(em baixo dele) -->
-                </ul>
-            </nav>
+        <h2>Lançamentos</h2>
+        <div class="lancamentos">
+            <div class="lancamento">
+                <img src="images/iphone-12.jpg" alt="iPhone 12" />
+                <h3>iPhone 12</h3>
+                <p>Último lançamento da apple, o iphone 12 conta com excelentes cameras, como sempre.</p>
+            </div>
+            <div class="lancamento">
+                <img src="images/galaxy-s20.jpg" alt="Galaxy S20" />
+                <h3>Galaxy S20</h3>
+                <p>Novamente a Samsung inova em copiar todas as features do iPhone do proximo ano.</p>
+            </div>
+            <div class="lancamento">
+                <img src="images/poco-x3-pro.jpg" alt="Poco X3 Pro" />
+                <h3>Poco X3 Pro</h3>
+                <p>O Poco X3 Pro aposta em um conjunto bem equilibrado e processamento de ponta com baixo custo.</p>
+            </div>
+        </div>
+        <h2>Noticias</h2>
+        <div class="noticias">
+            <div class="noticia">
+                <img src="images/iphone-12.jpg" alt="iPhone 12" />
+                <div class="noticia-artigo">
+                    <h3>iPhone 12</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequatur cupiditate dolore, doloremque expedita, hic maiores molestiae natus necessitatibus nisi nostrum officiis provident quasi quidem quod repellat similique suscipit vero.</p>
+                </div>
+            </div>
+            <div class="noticia">
+                <img src="images/galaxy-s20.jpg" alt="Galaxy S20" />
+                <div class="noticia-artigo">
+                    <h3>Galaxy S20</h3>
+                    <p>Alias consequatur cupiditate dolore, doloremque expedita, hic maiores molestiae natus necessitatibus nisi nostrum officiis provident quasi quidem quod repellat similique suscipit vero. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+            <div class="noticia">
+                <img src="images/poco-x3-pro.jpg" alt="Poco X3 Pro" />
+                <div class="noticia-artigo">
+                    <h3>Poco X3 Pro</h3>
+                    <p>Hic maiores molestiae natus necessitatibus nisi nostrum officiis provident quasi quidem quod repellat similique suscipit vero. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequatur cupiditate dolore, doloremque expedita.</p>
+                </div>
+            </div>
         </div>
     </div>
 </main>
 <footer>
-
+    <div class="container">
+        <p class="copyright">Jedai &copy; 2021</p>
+    </div>
 </footer>
 </body>
 

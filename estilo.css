@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+:root {
+    --white: #f0f0f0;
+    --lightgray: #ababab;
+    --gray: #343434;
+    --black: #121212;
+    --deepblue: #123456;
+}
 
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
-    background-color: lightgray;
+    background-color: var(--lightgray);
     width: 100%;
     margin: 0;
     padding: 0;
@@ -17,16 +27,17 @@ header {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.05);
 }
-
-.page-menu, .page-search, .page-title, .page-header{
-    display: inline-block;
+.page-header .container {
+    display: flex;
+    align-items: center;
 }
 
 .page-title {
     width: 10%;
     margin-left: 10px;
-    color: #123456;
+    color: var(--deepblue);
     text-decoration: none;
+    font-weight: 400;
 }
 
 .page-menu {
@@ -36,32 +47,68 @@ header {
 .page-menu ul li {
     display: inline-block;
     padding: 5px;
-    color: gray;
-    height: px;
-    border: 5px solid #123456;
-    background-color: #122131;
+    /*color: gray;*/
+    /*height: px;*/
+    /*border: 5px solid #123456;*/
+    /*background-color: #122131;*/
 }
 
 .page-menu ul li a:link{
     text-decoration: none;
 }
 
-.page-search {
-    width: 20%;
-}
-
-a {
-    color: rgb(10, 204, 10);
+a, a:hover, a:active {
+    color: var(--deepblue);
 }
 
 a:hover {
-    color: rgb(28, 99, 28);
+    text-decoration: underline var(--deepblue) solid;
+}
+footer {
+    background-color: #565656;
+}
+.copyright {
+    text-align: center;
+    color: #f0f0f0;
 }
 
-a:active {
-    color: red;
-}
 /* index.html */
+.lancamentos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.lancamento {
+    background-color: white;
+    border-radius: 6px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.lancamento img {
+    height: 200px;
+}
+
+.noticia {
+    display: flex;
+    border-bottom: 1px #bbb dotted;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.noticia:last-child {
+    border-bottom: 0;
+}
+
+.noticia img {
+    float: left;
+    width:  250px;
+}
+
+.noticia-artigo {
+    margin: 10px;
+    padding: 10px;
+}
 
 .menuInicial {
     display: inline-block;
